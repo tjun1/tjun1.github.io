@@ -160,6 +160,15 @@ h2 ~ p {
   height: 100vh;
   padding-top: 10vh;
 }
+.full-hero:after {
+  bottom: 2vh;
+  color: #fff;
+  content: "﹀";
+  font-size: 36px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+}
 .hero-home {
   background-image: url(/images/shark.jpg);
   background-position: center top;
@@ -176,6 +185,14 @@ h2 ~ p {
   color: rgba(255 ,255, 255, 0.8);
   font-size: 7vw;
   margin-bottom: 0.25em;
+}
+.hero-content h1:before {
+  color: blue;
+  content: "B";
+}
+.hero-content h1:after {
+  color: red;
+  content: "A";
 }
 .hero-content .social-link {
   background-color: rgba(255, 255, 255, 0.8);
